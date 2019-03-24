@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SnakeGame</string>
+    <string name="title_activity_score_page">ScorePage</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.snakegame">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconku"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/iconku_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondaryActivity"
+            android:label="Slithering Snake!!!"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.snakegame.MainActivity"></meta-data>
+        </activity>
+        <activity
+            android:name=".TertiaryActivity"
+            android:label="Slithering Snake!!!"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.snakegame.MainActivity"></meta-data>
+        </activity>
+        <activity
+            android:name=".FourthActivity"
+            android:label="Slithering Snake!!!"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.snakegame.MainActivity"></meta-data>
+        </activity>
+        <activity
+            android:name=".FifithActivity"
+            android:label="Slithering Snake!!!"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.snakegame.MainActivity"></meta-data>
+        </activity>
+    </application>
+</manifest>
